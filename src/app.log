@@ -1,0 +1,145 @@
+"2021-10-18 00:29:02 [restartedMain] INFO  c.e.s.SpringbooksApplication - Starting SpringbooksApplication using Java 16.0.2 on DESKTOP-4VVKB9M with PID 14596 (C:\Users\vaste\Desktop\springbooks\target\classes started by vaste in C:\Users\vaste\Desktop\springbooks)
+""2021-10-18 00:29:02 [restartedMain] INFO  c.e.s.SpringbooksApplication - No active profile set, falling back to default profiles: default
+""2021-10-18 00:29:03 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2021-10-18 00:29:03 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2021-10-18 00:29:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2021-10-18 00:29:06 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-10-18 00:29:06 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+""2021-10-18 00:29:06 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-10-18 00:29:06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3490 ms
+""2021-10-18 00:29:07 [restartedMain] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2021-10-18 00:29:07 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2021-10-18 00:29:07 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2021-10-18 00:29:07 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+""2021-10-18 00:29:07 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2021-10-18 00:29:07 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2021-10-18 00:29:07 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+""2021-10-18 00:31:04 [restartedMain] INFO  c.e.s.SpringbooksApplication - Starting SpringbooksApplication using Java 16.0.2 on DESKTOP-4VVKB9M with PID 15088 (C:\Users\vaste\Desktop\springbooks\target\classes started by vaste in C:\Users\vaste\Desktop\springbooks)
+""2021-10-18 00:31:04 [restartedMain] INFO  c.e.s.SpringbooksApplication - No active profile set, falling back to default profiles: default
+""2021-10-18 00:31:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2021-10-18 00:31:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2021-10-18 00:31:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2021-10-18 00:31:05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-10-18 00:31:05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+""2021-10-18 00:31:06 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-10-18 00:31:06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1482 ms
+""2021-10-18 00:31:06 [restartedMain] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2021-10-18 00:31:06 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2021-10-18 00:31:06 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2021-10-18 00:31:06 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+""2021-10-18 00:31:06 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2021-10-18 00:31:06 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2021-10-18 00:31:06 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+""2021-10-18 00:34:23 [restartedMain] INFO  c.e.s.SpringbooksApplication - Starting SpringbooksApplication using Java 16.0.2 on DESKTOP-4VVKB9M with PID 4476 (C:\Users\vaste\Desktop\springbooks\target\classes started by vaste in C:\Users\vaste\Desktop\springbooks)
+""2021-10-18 00:34:23 [restartedMain] INFO  c.e.s.SpringbooksApplication - No active profile set, falling back to default profiles: default
+""2021-10-18 00:34:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2021-10-18 00:34:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2021-10-18 00:34:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2021-10-18 00:34:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-10-18 00:34:24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+""2021-10-18 00:34:24 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-10-18 00:34:24 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1460 ms
+""2021-10-18 00:34:25 [restartedMain] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2021-10-18 00:34:25 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2021-10-18 00:34:25 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2021-10-18 00:34:25 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+""2021-10-18 00:34:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2021-10-18 00:34:25 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2021-10-18 00:34:25 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+""2021-10-18 00:43:11 [restartedMain] INFO  c.e.s.SpringbooksApplication - Starting SpringbooksApplication using Java 16.0.2 on DESKTOP-4VVKB9M with PID 1096 (C:\Users\vaste\Desktop\springbooks\target\classes started by vaste in C:\Users\vaste\Desktop\springbooks)
+""2021-10-18 00:43:11 [restartedMain] INFO  c.e.s.SpringbooksApplication - No active profile set, falling back to default profiles: default
+""2021-10-18 00:43:11 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2021-10-18 00:43:11 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2021-10-18 00:43:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2021-10-18 00:43:12 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-10-18 00:43:12 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+""2021-10-18 00:43:12 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-10-18 00:43:12 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1520 ms
+""2021-10-18 00:43:12 [restartedMain] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2021-10-18 00:43:13 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2021-10-18 00:43:13 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2021-10-18 00:43:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-10-18 00:43:13 [restartedMain] INFO  c.e.s.SpringbooksApplication - Started SpringbooksApplication in 3.014 seconds (JVM running for 4.354)
+""2021-10-18 00:43:21 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-10-18 00:43:21 [http-nio-8080-exec-1] INFO  com.example.springbooks.logger.Log - Welcome page is opened!
+""2021-10-18 00:43:24 [http-nio-8080-exec-7] INFO  com.example.springbooks.logger.Log - AllDisciplines page is opened!
+""2021-10-18 00:45:24 [restartedMain] INFO  c.e.s.SpringbooksApplication - Starting SpringbooksApplication using Java 16.0.2 on DESKTOP-4VVKB9M with PID 7624 (C:\Users\vaste\Desktop\springbooks\target\classes started by vaste in C:\Users\vaste\Desktop\springbooks)
+""2021-10-18 00:45:24 [restartedMain] INFO  c.e.s.SpringbooksApplication - No active profile set, falling back to default profiles: default
+""2021-10-18 00:45:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2021-10-18 00:45:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2021-10-18 00:45:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2021-10-18 00:45:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-10-18 00:45:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+""2021-10-18 00:45:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-10-18 00:45:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1377 ms
+""2021-10-18 00:45:25 [restartedMain] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2021-10-18 00:45:26 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2021-10-18 00:45:26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2021-10-18 00:45:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-10-18 00:45:26 [restartedMain] INFO  c.e.s.SpringbooksApplication - Started SpringbooksApplication in 2.692 seconds (JVM running for 4.03)
+""2021-10-18 00:45:38 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-10-18 00:45:38 [http-nio-8080-exec-1] INFO  com.example.springbooks.logger.Log - Welcome page is opened!
+""2021-10-18 00:45:39 [http-nio-8080-exec-6] INFO  com.example.springbooks.logger.Log - AllDisciplines page is opened!
+""2021-10-18 00:46:26 [restartedMain] INFO  c.e.s.SpringbooksApplication - Starting SpringbooksApplication using Java 16.0.2 on DESKTOP-4VVKB9M with PID 9836 (C:\Users\vaste\Desktop\springbooks\target\classes started by vaste in C:\Users\vaste\Desktop\springbooks)
+""2021-10-18 00:46:26 [restartedMain] INFO  c.e.s.SpringbooksApplication - No active profile set, falling back to default profiles: default
+""2021-10-18 00:46:26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2021-10-18 00:46:26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2021-10-18 00:46:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2021-10-18 00:46:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-10-18 00:46:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+""2021-10-18 00:46:27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-10-18 00:46:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1329 ms
+""2021-10-18 00:46:27 [restartedMain] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2021-10-18 00:46:27 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2021-10-18 00:46:28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2021-10-18 00:46:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-10-18 00:46:28 [restartedMain] INFO  c.e.s.SpringbooksApplication - Started SpringbooksApplication in 2.548 seconds (JVM running for 3.786)
+""2021-10-18 00:46:37 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-10-18 00:46:37 [http-nio-8080-exec-1] INFO  com.example.springbooks.logger.Log - Welcome page is opened!
+""2021-10-18 00:46:38 [http-nio-8080-exec-6] INFO  com.example.springbooks.logger.Log - AllDisciplines page is opened!
+"

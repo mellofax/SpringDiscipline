@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Add Discipline</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/css/style.css}"/>
+</head>
+<body>
+<div class="container">
+    <h1>New discipline:</h1>
+    <form th:action="@{/newdiscipline}"
+          th:object="${disciplineform}" method="POST">
+        <p>Discipline Name:
+            <input type="text" th:field="*{name}" />
+        </p>
+        <p>Lecturer:
+            <input type="text" th:field="*{teacher}" />
+        </p>
+        <p> Hours:
+            <input type="text" th:field="*{hours}" />
+        </p>
+        <input class ="button-main-page" type="submit" value="Add" />
+    </form>
+</div>
+<div th:if="${errorMessage}" th:utext="${errorMessage}"
+     style="color:red;font-style:italic;">
+</div>
+</body>

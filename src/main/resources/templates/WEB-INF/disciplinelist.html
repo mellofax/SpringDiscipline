@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Book List</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<h1>Discipline List</h1>
+<h2> <a href="newdiscipline">Add new discipline</a> </h2>
+<br/><br/>
+<div class="container" align="center">
+    <table class ="container" border="1">
+        <tr>
+            <th><h1>Discipline Name</h1></th>
+            <th><h1>Lecturer</h1></th>
+            <th><h1>Hours</h1></th>
+        </tr>
+        <tr th:each ="discipline : ${disciplines}">
+            <td th:utext="${discipline.name}">...</td>
+            <td th:utext="${discipline.teacher}">...</td>
+            <td th:utext="${discipline.hours}">...</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
