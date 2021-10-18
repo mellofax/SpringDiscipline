@@ -33,3 +33,6 @@ h2 a {
     color: #FB667A;
     text-decoration: none;
 }
+input[type=submit]{
+    width: 50px;
+}

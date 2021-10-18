@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
-    <title>Book List</title>
+    <title>Discipline List</title>
     <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
 </head>
 <body>
@@ -20,6 +20,14 @@
             <td th:utext="${discipline.name}">...</td>
             <td th:utext="${discipline.teacher}">...</td>
             <td th:utext="${discipline.hours}">...</td>
+            <td>
+                <form th:action="@{deletediscipline/{Name}(Name=${discipline.name})}">
+                    <input type="submit" value="Delete" size="4"/>
+                </form>
+                <form th:action="@{editdiscipline/{Name}(Name=${discipline.name})}">
+                    <input type="submit" value="Edit" size="10">
+                </form >
+            </td>
         </tr>
     </table>
 </div>
